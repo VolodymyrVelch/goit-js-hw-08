@@ -4,8 +4,6 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import { galleryItems } from './gallery-items';
 // Change code below this line
 
-console.log(galleryItems);
-
 const galleryList = document.querySelector('.gallery');
 
 // добавляємо днамічно  елменти масиву в розмітку
