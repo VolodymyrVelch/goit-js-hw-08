@@ -11,6 +11,7 @@ function currentTime(data) {
 }
 
 let localStorageTime = localStorage.getItem('videoplayer-current-time');
-
-iframePlayer.setCurrentTime(localStorageTime);
+if (localStorageTime) {
+  iframePlayer.setCurrentTime(localStorageTime);
+}
 // console.log(localStorageKey);
